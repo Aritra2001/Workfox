@@ -20,7 +20,7 @@ const Regform = () => {
 
         const login = {firstname, middlename, lastname, email, contact, brandname} 
 
-        const response = await fetch('https://workfox-backend-oybtq9nb4-aritra2001.vercel.app', {
+        const response = await fetch('http://localhost:5050/workfox/register', {
             method: 'POST',
             body: JSON.stringify(login),
             headers: {

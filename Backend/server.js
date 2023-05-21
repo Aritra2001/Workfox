@@ -5,16 +5,19 @@ const mongoose = require('mongoose')
 const login = require('./models/loginModels')
 const cors = require('cors')
 
-//cors 
-app.use(cors())
 
 //express app
 const app = express()
 
+//cors
+app.use(cors({
+    origin: 'http://localhost:3000'
+}))
+
 app.use(express.json())
 
 app.use((req, res, next) => {
-    consol.log(req.method)
+    console.log(req.method, req.url)
     next()
 })
 
