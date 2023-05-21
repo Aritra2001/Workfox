@@ -1,0 +1,31 @@
+.error p {
+    position: absolute;
+    width: 500px;
+    height: 76px;
+    left: 500px;
+    top: 30vh;
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 52px;
+    letter-spacing: 0.01em;
+    background: none;
+    color: #FFFFFF;
+}
+#home {
+    position: relative;
+    justify-content: center;
+    left: 20px;
+    top: 50vh;
+   width: 150px; 
+   height: 8vh;
+   border-radius: 55px;
+   font-family: 'Gilroy';
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+   letter-spacing: 0.05em;
+   cursor: pointer;
+   color: #010101;
+   background-color: #FFFF01;
+}

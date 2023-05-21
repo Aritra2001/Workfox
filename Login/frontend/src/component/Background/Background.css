@@ -1,0 +1,34 @@
+img {
+    position: absolute;
+    width: 342px;
+    height: 56px;
+    left: -15px;
+    top: 30px;
+}
+.spot-1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 324px;
+    height: 298px;
+    left: 884px;
+    top: -91px;
+    
+    background: #FFFF01;
+    border: 1px solid #000000;
+    filter: blur(291.5px);
+}
+.spot-2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 307px;
+    height: 304px;
+    left: 248px;
+    top: 821px;
+    
+    background: #FFFF01;
+    border: 1px solid #000000;
+    filter: blur(291.5px);
+}
+  
