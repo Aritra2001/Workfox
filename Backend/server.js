@@ -6,9 +6,7 @@ const login = require('./models/loginModels')
 const cors = require('cors')
 
 //cors 
-app.use(cors({
-    origin: 'https://workfox-aritra2001.vercel.app/'
-}))
+app.use(cors())
 
 //express app
 const app = express()
@@ -16,13 +14,7 @@ const app = express()
 app.use(express.json())
 
 app.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', '*')
-    res.header('Access-Control-Allow-Headers', '*')
-
-    if(req.method === 'OPTIONS') {
-        res.header('Access-Control-Allow-Methods', 'POST')
-    }
-
+    consol.log(req.method)
     next()
 })
 
