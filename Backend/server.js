@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 
 
 //post request
-app.post('/workfox/register', async(req, res) => {
+app.post('', async(req, res) => {
     const {firstname, middlename, lastname, email, contact, brandname} = req.body
 
     try {
