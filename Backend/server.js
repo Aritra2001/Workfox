@@ -3,6 +3,12 @@ require('dotenv').config()
 const express = require('express')
 const mongoose = require('mongoose')
 const login = require('./models/loginModels')
+const cors = require('cors')
+
+//cors 
+app.use(cors({
+    origin: 'https://workfox-aritra2001.vercel.app/'
+}))
 
 //express app
 const app = express()
