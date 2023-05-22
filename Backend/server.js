@@ -10,7 +10,9 @@ const cors = require('cors')
 const app = express()
 
 //cors
-app.use(cors({}))
+app.use(cors({
+    origin: 'https://workfox.vercel.app/'
+}))
 
 app.use(express.json())
 
