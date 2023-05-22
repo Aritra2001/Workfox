@@ -10,10 +10,7 @@ const cors = require('cors')
 const app = express()
 
 //cors
-app.use(cors({
-    origin: 'https://workfox.vercel.app/',
-    allowedHeaders: 'Access-Control-Allow-Headers'
-}))
+app.use(cors({}))
 
 app.use(express.json())
 
