@@ -1,2 +1,5 @@
 # environment variables
 .env
+
+#node mudule
+/node_modules
