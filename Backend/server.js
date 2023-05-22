@@ -11,7 +11,8 @@ const app = express()
 
 //cors
 app.use(cors({
-    origin: 'https://workfox.vercel.app/'
+    origin: 'https://workfox.vercel.app/',
+    allowedHeaders: 'Access-Control-Allow-Headers'
 }))
 
 app.use(express.json())
